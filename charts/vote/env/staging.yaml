@@ -3,7 +3,7 @@
 
 service: 
   type: NodePort 
-  nodePort: 30100
+  nodePort: 30101
 
 replicaCount: 3
 deploymentStrategy:
