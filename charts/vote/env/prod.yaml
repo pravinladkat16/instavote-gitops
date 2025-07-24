@@ -19,12 +19,12 @@ canary:
     enabled: true
     type: NodePort
     port: 80
-    nodePort: 30300
+    nodePort: null
   canaryService:
     enabled: true
     type: NodePort
     port: 80
-    nodePort: 30400
+    nodePort: null
 
 ingress:
   enabled: true
